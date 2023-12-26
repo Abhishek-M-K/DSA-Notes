@@ -1,5 +1,8 @@
 /*
                                                                       BFS TRAVERSAL OF A GRAPH
+                                                                ------------------------------------
+SPACE COMPLEXITY: O(N+2E)
+
 
 class Solution {
   public:
