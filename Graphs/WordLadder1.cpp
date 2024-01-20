@@ -42,7 +42,7 @@ public:
             if(word==endWord) return steps;
 
             for(int i=0; i<word.size();i++){
-                char letter = word[i];
+                char ogLetter = word[i];
 
                 for(char ch='a';ch<='z';ch++){
                     word[i]=ch;
@@ -52,7 +52,7 @@ public:
                         q.push({word, steps+1});
                     }
                 }
-                word[i]=letter;
+                word[i]=ogLetter;
             }
         }
 
